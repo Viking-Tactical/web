@@ -1,11 +1,11 @@
 ---
 author: Commander Sigvaldr
-pubDatetime: 2022-09-23T15:22:00Z
-modDatetime: 2025-06-13T16:52:45.934Z
+pubDatetime: 2025-10-23T08:27:23.549Z
+modDatetime: 2025-10-23T08:27:23.549Z
 title: Initial Intel
 slug: Initial Intel
 featured: false
-draft: true
+draft: false
 tags:
   - intel
 description:
