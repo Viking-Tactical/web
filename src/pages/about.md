@@ -1,37 +1,29 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: ""
 ---
-
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
-
 ![Logo](public/assets/logo.png)
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+# The Basics
+Viking Tactical -=VTAC=- is a militaristic gaming organization (or "clan") founded on the principle of Comradery. Our official motto is "Victory Through Comradery" We mostly play shooters and other military and strategy games.
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+We operate not for profit, but for community. Everything you see has been paid for by the generocity of our own members.
+<hr/>
 
-## Features
+## Founding
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+In the winter of the year of 2015, a man known as Sigvaldr had an idea. He wanted to take the few close friends he'd made gaming online, group them together, and start a gaming clan.
+There were three founding members. One of them has been lost to time; The other has had a troubled history with the clan, but remains among us to this day. There were a few others that signed up shortly after the founding. 
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+## Philosophy
 
-and so much more.
+We believe a community should be built on solid principles. Our Pillars of Principle are Brotherhood/Sisterhood, Never go at it alone, Not one man left behind, and that we will die on our feet rather than live on our knees.
+We believe that in the heat of battle, in the depths of the trenches, in the fire of war, you only have two things. Yourself, and the brother/sister at your side. We strongly believe the strongest bonds are those forged
+in fire. By building each other up rather than tearing someone down to prop oneself up, we aim to achieve a sense of comradery and community across all our members. We don't want you chasing rank for a power trip, we want you to 
+earn it because your brothers and sisters believe you earned it. This is a place for people to make friends, express themselves, and kick some ass together!
 
-## Show your support
+## Extra History
 
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
+Viking Tactical as a name and concept did not actually begin in 2015. It is 8 years older than that, old enough to drink in some countries!
 
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+Viking Tactical was the name of Sigvaldr's Call of Duty Competitive team. Him and his team participated in various tournaments and trick-shot competitions. Legend has it they even won an MLG tournament back in black ops 2.
