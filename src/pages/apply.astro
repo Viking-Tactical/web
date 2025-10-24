@@ -24,13 +24,14 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 <Layout>
   <Header />
   <head>
-  <meta http-equiv='refresh' content='0; URL=http://yggdrasil.vikingtactical.us:9999/apps/forms/s/8fqDa8zmjgowxqC8tgLdxsdk'>
+  <!-- <meta http-equiv='refresh' content='0; URL=http://yggdrasil.vikingtactical.us:9999/apps/forms/s/8fqDa8zmjgowxqC8tgLdxsdk'> -->
+  <meta http-equiv="refresh" content={`0; URL=${SITE.applicationLink}`} />
 </head>
   <main id="main-content" data-layout="index">
     <section id="hero" class="pt-8 pb-6">
-      <!-- <h1 class="my-4 inline-block text-accent text-4xl font-bold sm:my-8 sm:text-5xl">
-        Welcome to VTAC
-      </h1> -->
+      <h1 class="my-4 inline-block text-accent text-4xl font-bold sm:my-8 sm:text-5xl">
+        Please wait while you are redirected...
+      </h1>
   </main>
   <Footer />
 </Layout>
