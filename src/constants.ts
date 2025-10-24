@@ -1,6 +1,7 @@
 import type { Props } from "astro";
 
 import IconBluesky from "@/assets/icons/IconBluesky.svg"
+import IconDiscord from "@/assets/icons/IconDiscord.svg"
 
 import IconMail from "@/assets/icons/IconMail.svg";
 import IconGitHub from "@/assets/icons/IconGitHub.svg";
@@ -8,7 +9,6 @@ import IconBrandX from "@/assets/icons/IconBrandX.svg";
 import IconWhatsapp from "@/assets/icons/IconWhatsapp.svg";
 import IconFacebook from "@/assets/icons/IconFacebook.svg";
 import IconTelegram from "@/assets/icons/IconTelegram.svg";
-import IconPinterest from "@/assets/icons/IconPinterest.svg";
 import { SITE } from "@/config";
 
 interface Social {
@@ -24,6 +24,12 @@ export const SOCIALS: Social[] = [
     href: "https://bsky.app/profile/vikingtactical.us",
     linkTitle: `${SITE.title} on Bluesky`,
     icon: IconBluesky,
+  },
+  {
+    name: "Discord",
+    href: SITE.discordLink,
+    linkTitle: `Our Discord server`,
+    icon: IconDiscord,
   },
   {
     name: "GitHub",
@@ -53,10 +59,10 @@ export const SHARE_LINKS: Social[] = [
     icon: IconBluesky,
   },
   {
-    name: "WhatsApp",
-    href: "https://wa.me/?text=",
-    linkTitle: `Share this post via WhatsApp`,
-    icon: IconWhatsapp,
+    name: "X",
+    href: "https://x.com/intent/post?url=",
+    linkTitle: `Share this post on X`,
+    icon: IconBrandX,
   },
   {
     name: "Facebook",
@@ -65,22 +71,16 @@ export const SHARE_LINKS: Social[] = [
     icon: IconFacebook,
   },
   {
-    name: "X",
-    href: "https://x.com/intent/post?url=",
-    linkTitle: `Share this post on X`,
-    icon: IconBrandX,
-  },
+    name: "WhatsApp",
+    href: "https://wa.me/?text=",
+    linkTitle: `Share this post via WhatsApp`,
+    icon: IconWhatsapp,
+  },  
   {
     name: "Telegram",
     href: "https://t.me/share/url?url=",
     linkTitle: `Share this post via Telegram`,
     icon: IconTelegram,
-  },
-  {
-    name: "Pinterest",
-    href: "https://pinterest.com/pin/create/button/?url=",
-    linkTitle: `Share this post on Pinterest`,
-    icon: IconPinterest,
   },
   {
     name: "Mail",
