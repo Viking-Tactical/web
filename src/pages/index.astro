@@ -12,7 +12,7 @@ import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { SITE } from "@/config";
 import { SOCIALS } from "@/constants";
 import { Image } from "astro:assets";
-import comrades from "src/assets/images/comrades.png"
+import comrades from "src/assets/images/comrades.png";
 
 const posts = await getCollection("blog");
 
@@ -25,18 +25,29 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
   <Header />
   <main id="main-content" data-layout="index">
     <section id="hero" class="pt-8 pb-6">
-      <h1 class="my-4 inline-block text-accent text-4xl font-bold sm:my-8 sm:text-5xl">
+      <h1
+        class="my-4 inline-block text-4xl font-bold text-accent sm:my-8 sm:text-5xl"
+      >
         Welcome to VTAC
       </h1>
 
       <p>
-        ATTENTION! If you have landed yourself here at the gates of my beloved gaming clan that can only mean two things.<br>
-        OPTION ONE: You're one of us and need no further instruction.<br>
-        OPTION TWO: You're new around here, let me give you welcome package.<br><br>
-      <Image src={comrades} alt="A bird sitting on a nest of eggs." width="1000" height="500" /><br>
-        We are a decade-old gaming clan dedicated to providing experiences our members will remember for all their days.
-        We pride ourselves on building each other up rather than tearing one down for one's own gain. We swear by our brothers and sisters
-        to give each other our most authentic selves, help each other out, and most importantly, kick some ass in some video games together!
+        ATTENTION! If you have landed yourself here at the gates of my beloved
+        gaming clan that can only mean two things.<br />
+        OPTION ONE: You're one of us and need no further instruction.<br />
+        OPTION TWO: You're new around here, let me give you welcome package.<br
+        /><br />
+        <Image
+          src={comrades}
+          alt="A bird sitting on a nest of eggs."
+          width="1000"
+          height="500"
+        /><br />
+        We are a decade-old gaming clan dedicated to providing experiences our members
+        will remember for all their days. We pride ourselves on building each other
+        up rather than tearing one down for one's own gain. We swear by our brothers
+        and sisters to give each other our most authentic selves, help each other
+        out, and most importantly, kick some ass in some video games together!
       </p>
       <p class="mt-2">
         Read the
@@ -45,14 +56,13 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
           href="https://vikingtactical.us/posts"
         >
           Intel Drops
-        </LinkButton> for more info.
-        Or Read about
+        </LinkButton> for more info. Or Read about
         <LinkButton
           class="underline decoration-dashed underline-offset-4 hover:text-accent"
           href="https://vikingtactical.us/about"
         >
           us and our history
-        </LinkButton><br><br>
+        </LinkButton><br /><br />
         Good luck out there Cadet, you'll need it.
       </p>
       {
@@ -67,11 +77,18 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     </section>
 
     <Hr />
-    <br>
+    <br />
     <center>
-      <iframe src="https://discord.com/widget?id=183107747217145856&theme=dark" width="750" height="350" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+      <iframe
+        src="https://discord.com/widget?id=183107747217145856&theme=dark"
+        width="750"
+        height="350"
+        allowtransparency="true"
+        frameborder="0"
+        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+      ></iframe>
     </center>
-    <br>
+    <br />
     <Hr />
 
     {

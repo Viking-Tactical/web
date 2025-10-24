@@ -75,7 +75,7 @@ export const SHARE_LINKS: Social[] = [
     href: "https://wa.me/?text=",
     linkTitle: `Share this post via WhatsApp`,
     icon: IconWhatsapp,
-  },  
+  },
   {
     name: "Telegram",
     href: "https://t.me/share/url?url=",
