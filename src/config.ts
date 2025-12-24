@@ -21,6 +21,6 @@ export const SITE = {
   lang: "en", // html lang code. Set this empty and default will be "en"
   timezone: "America/New_York", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   discordLink: "https://discord.gg/kNd2MnXsj8",
-  applicationLink: "http://cloud.vikingtactical.us:9999/apps/forms/s/8fqDa8zmjgowxqC8tgLdxsdk",
+  applicationLink: "http://47.17.64.199:9999/apps/forms/s/8fqDa8zmjgowxqC8tgLdxsdk",
   driveLink: "http://cloud.vikingtactical.us:9999",
 } as const;
